@@ -1,0 +1,402 @@
+{
+  "blocks": [
+    {
+      "apiVersion": 3,
+      "attributes": {
+        "align": {
+          "enum": [
+            "left",
+            "center",
+            "right",
+            "wide",
+            "full",
+            ""
+          ],
+          "type": "string"
+        },
+        "allowResize": {
+          "default": false,
+          "type": "boolean"
+        },
+        "aspectRatio": {
+          "default": "auto",
+          "type": "string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "borderColor": {
+          "type": "string"
+        },
+        "caption": {
+          "role": "content",
+          "selector": ".blocks-gallery-caption",
+          "source": "rich-text",
+          "type": "rich-text"
+        },
+        "className": {
+          "type": "string"
+        },
+        "columns": {
+          "maximum": 8,
+          "minimum": 1,
+          "type": "number"
+        },
+        "fixedHeight": {
+          "default": true,
+          "type": "boolean"
+        },
+        "gradient": {
+          "type": "string"
+        },
+        "ids": {
+          "default": [],
+          "items": {
+            "type": "number"
+          },
+          "type": "array"
+        },
+        "imageCrop": {
+          "default": true,
+          "type": "boolean"
+        },
+        "images": {
+          "default": [],
+          "query": {
+            "alt": {
+              "attribute": "alt",
+              "default": "",
+              "selector": "img",
+              "source": "attribute",
+              "type": "string"
+            },
+            "caption": {
+              "selector": ".blocks-gallery-item__caption",
+              "source": "rich-text",
+              "type": "rich-text"
+            },
+            "fullUrl": {
+              "attribute": "data-full-url",
+              "selector": "img",
+              "source": "attribute",
+              "type": "string"
+            },
+            "id": {
+              "attribute": "data-id",
+              "selector": "img",
+              "source": "attribute",
+              "type": "string"
+            },
+            "link": {
+              "attribute": "data-link",
+              "selector": "img",
+              "source": "attribute",
+              "type": "string"
+            },
+            "url": {
+              "attribute": "src",
+              "selector": "img",
+              "source": "attribute",
+              "type": "string"
+            }
+          },
+          "selector": ".blocks-gallery-item",
+          "source": "query",
+          "type": "array"
+        },
+        "layout": {
+          "type": "object"
+        },
+        "linkTarget": {
+          "type": "string"
+        },
+        "linkTo": {
+          "type": "string"
+        },
+        "lock": {
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "randomOrder": {
+          "default": false,
+          "type": "boolean"
+        },
+        "shortCodeTransforms": {
+          "default": [],
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "sizeSlug": {
+          "default": "large",
+          "type": "string"
+        },
+        "style": {
+          "type": "object"
+        }
+      },
+      "category": "media",
+      "derived": {
+        "isDynamic": true
+      },
+      "example": null,
+      "isDynamic": true,
+      "keywords": [
+        "images",
+        "photos"
+      ],
+      "name": "core/gallery",
+      "origin": "plugin",
+      "originName": "elementor-pro",
+      "originPlugins": [
+        "elementor-pro"
+      ],
+      "providesContext": {
+        "allowResize": "allowResize",
+        "fixedHeight": "fixedHeight",
+        "imageCrop": "imageCrop"
+      },
+      "supports": {
+        "__experimentalBorder": {
+          "__experimentalDefaultControls": {
+            "color": true,
+            "radius": true
+          },
+          "color": true,
+          "radius": true,
+          "style": true,
+          "width": true
+        },
+        "align": true,
+        "anchor": true,
+        "color": {
+          "background": true,
+          "gradients": true,
+          "text": false
+        },
+        "html": false,
+        "interactivity": {
+          "clientNavigation": true
+        },
+        "layout": {
+          "allowEditing": false,
+          "allowInheriting": false,
+          "allowSwitching": false,
+          "default": {
+            "type": "flex"
+          }
+        },
+        "spacing": {
+          "__experimentalDefaultControls": {
+            "blockGap": true,
+            "margin": false,
+            "padding": false
+          },
+          "__experimentalSkipSerialization": [
+            "blockGap"
+          ],
+          "blockGap": [
+            "horizontal",
+            "vertical"
+          ],
+          "margin": true,
+          "padding": true
+        },
+        "units": [
+          "px",
+          "em",
+          "rem",
+          "vh",
+          "vw"
+        ]
+      },
+      "title": "Gallery",
+      "usesContext": []
+    },
+    {
+      "apiVersion": 3,
+      "attributes": {
+        "align": {
+          "enum": [
+            "left",
+            "center",
+            "right",
+            "wide",
+            "full",
+            ""
+          ],
+          "type": "string"
+        },
+        "alt": {
+          "attribute": "alt",
+          "default": "",
+          "role": "content",
+          "selector": "img",
+          "source": "attribute",
+          "type": "string"
+        },
+        "aspectRatio": {
+          "type": "string"
+        },
+        "blob": {
+          "role": "local",
+          "type": "string"
+        },
+        "borderColor": {
+          "type": "string"
+        },
+        "caption": {
+          "role": "content",
+          "selector": "figcaption",
+          "source": "rich-text",
+          "type": "rich-text"
+        },
+        "className": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        },
+        "href": {
+          "attribute": "href",
+          "role": "content",
+          "selector": "figure > a",
+          "source": "attribute",
+          "type": "string"
+        },
+        "id": {
+          "role": "content",
+          "type": "number"
+        },
+        "lightbox": {
+          "enabled": {
+            "type": "boolean"
+          },
+          "type": "object"
+        },
+        "linkClass": {
+          "attribute": "class",
+          "selector": "figure > a",
+          "source": "attribute",
+          "type": "string"
+        },
+        "linkDestination": {
+          "type": "string"
+        },
+        "linkTarget": {
+          "attribute": "target",
+          "selector": "figure > a",
+          "source": "attribute",
+          "type": "string"
+        },
+        "lock": {
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "rel": {
+          "attribute": "rel",
+          "selector": "figure > a",
+          "source": "attribute",
+          "type": "string"
+        },
+        "scale": {
+          "type": "string"
+        },
+        "sizeSlug": {
+          "type": "string"
+        },
+        "style": {
+          "type": "object"
+        },
+        "title": {
+          "attribute": "title",
+          "role": "content",
+          "selector": "img",
+          "source": "attribute",
+          "type": "string"
+        },
+        "url": {
+          "attribute": "src",
+          "role": "content",
+          "selector": "img",
+          "source": "attribute",
+          "type": "string"
+        },
+        "width": {
+          "type": "string"
+        }
+      },
+      "category": "media",
+      "derived": {
+        "isDynamic": true
+      },
+      "example": null,
+      "isDynamic": true,
+      "keywords": [
+        "img",
+        "photo",
+        "picture"
+      ],
+      "name": "core/image",
+      "origin": "plugin",
+      "originName": "elementor-pro",
+      "originPlugins": [
+        "elementor-pro"
+      ],
+      "providesContext": null,
+      "supports": {
+        "__experimentalBorder": {
+          "__experimentalDefaultControls": {
+            "color": true,
+            "radius": true,
+            "width": true
+          },
+          "__experimentalSkipSerialization": true,
+          "color": true,
+          "radius": true,
+          "width": true
+        },
+        "align": [
+          "left",
+          "center",
+          "right",
+          "wide",
+          "full"
+        ],
+        "anchor": true,
+        "color": {
+          "background": false,
+          "text": false
+        },
+        "filter": {
+          "duotone": true
+        },
+        "interactivity": true,
+        "shadow": {
+          "__experimentalSkipSerialization": true
+        },
+        "spacing": {
+          "margin": true
+        }
+      },
+      "title": "Image",
+      "usesContext": [
+        "allowResize",
+        "imageCrop",
+        "fixedHeight",
+        "postId",
+        "postType",
+        "queryId"
+      ]
+    }
+  ],
+  "generated_at_utc": "2026-02-09T14:40:31+00:00",
+  "pluginSlug": "elementor-pro",
+  "pluginVersion": "3.34.0",
+  "wordpressVersion": "6.9.1"
+}

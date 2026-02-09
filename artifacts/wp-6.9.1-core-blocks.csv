@@ -1,0 +1,107 @@
+name,title,category,origin,originName,apiVersion,isDynamic,blockJson,hasRenderPhp,hasIndexPhp,hasViewJs,sourceRoot
+core/accordion,Accordion,design,core,,3,False,wp-includes/blocks/accordion/block.json,False,False,False,core
+core/accordion-heading,Accordion Heading,design,core,,3,False,wp-includes/blocks/accordion-heading/block.json,False,False,False,core
+core/accordion-item,Accordion Item,design,core,,3,False,wp-includes/blocks/accordion-item/block.json,False,False,False,core
+core/accordion-panel,Accordion Panel,design,core,,3,False,wp-includes/blocks/accordion-panel/block.json,False,False,False,core
+core/archives,Archives,widgets,core,,3,False,wp-includes/blocks/archives/block.json,False,False,False,core
+core/audio,Audio,media,core,,3,False,wp-includes/blocks/audio/block.json,False,False,False,core
+core/avatar,Avatar,theme,core,,3,False,wp-includes/blocks/avatar/block.json,False,False,False,core
+core/block,Pattern,reusable,core,,3,False,wp-includes/blocks/block/block.json,False,False,False,core
+core/button,Button,design,core,,3,False,wp-includes/blocks/button/block.json,False,False,False,core
+core/buttons,Buttons,design,core,,3,False,wp-includes/blocks/buttons/block.json,False,False,False,core
+core/calendar,Calendar,widgets,core,,3,False,wp-includes/blocks/calendar/block.json,False,False,False,core
+core/categories,Terms List,widgets,core,,3,False,wp-includes/blocks/categories/block.json,False,False,False,core
+core/code,Code,text,core,,3,False,wp-includes/blocks/code/block.json,False,False,False,core
+core/column,Column,design,core,,3,False,wp-includes/blocks/column/block.json,False,False,False,core
+core/columns,Columns,design,core,,3,False,wp-includes/blocks/columns/block.json,False,False,False,core
+core/comment-author-name,Comment Author Name,theme,core,,3,False,wp-includes/blocks/comment-author-name/block.json,False,False,False,core
+core/comment-content,Comment Content,theme,core,,3,False,wp-includes/blocks/comment-content/block.json,False,False,False,core
+core/comment-date,Comment Date,theme,core,,3,False,wp-includes/blocks/comment-date/block.json,False,False,False,core
+core/comment-edit-link,Comment Edit Link,theme,core,,3,False,wp-includes/blocks/comment-edit-link/block.json,False,False,False,core
+core/comment-reply-link,Comment Reply Link,theme,core,,3,False,wp-includes/blocks/comment-reply-link/block.json,False,False,False,core
+core/comment-template,Comment Template,design,core,,3,False,wp-includes/blocks/comment-template/block.json,False,False,False,core
+core/comments,Comments,theme,core,,3,False,wp-includes/blocks/comments/block.json,False,False,False,core
+core/comments-pagination,Comments Pagination,theme,core,,3,False,wp-includes/blocks/comments-pagination/block.json,False,False,False,core
+core/comments-pagination-next,Comments Next Page,theme,core,,3,False,wp-includes/blocks/comments-pagination-next/block.json,False,False,False,core
+core/comments-pagination-numbers,Comments Page Numbers,theme,core,,3,False,wp-includes/blocks/comments-pagination-numbers/block.json,False,False,False,core
+core/comments-pagination-previous,Comments Previous Page,theme,core,,3,False,wp-includes/blocks/comments-pagination-previous/block.json,False,False,False,core
+core/comments-title,Comments Title,theme,core,,3,False,wp-includes/blocks/comments-title/block.json,False,False,False,core
+core/cover,Cover,media,core,,3,False,wp-includes/blocks/cover/block.json,False,False,False,core
+core/details,Details,text,core,,3,False,wp-includes/blocks/details/block.json,False,False,False,core
+core/embed,Embed,embed,core,,3,False,wp-includes/blocks/embed/block.json,False,False,False,core
+core/file,File,media,core,,3,False,wp-includes/blocks/file/block.json,False,False,True,core
+core/footnotes,Footnotes,text,core,,3,False,wp-includes/blocks/footnotes/block.json,False,False,False,core
+core/freeform,Classic,text,core,,3,False,wp-includes/blocks/freeform/block.json,False,False,False,core
+core/gallery,Gallery,media,core,,3,False,wp-includes/blocks/gallery/block.json,False,False,False,core
+core/group,Group,design,core,,3,False,wp-includes/blocks/group/block.json,False,False,False,core
+core/heading,Heading,text,core,,3,False,wp-includes/blocks/heading/block.json,False,False,False,core
+core/home-link,Home Link,design,core,,3,False,wp-includes/blocks/home-link/block.json,False,False,False,core
+core/html,Custom HTML,widgets,core,,3,False,wp-includes/blocks/html/block.json,False,False,False,core
+core/image,Image,media,core,,3,False,wp-includes/blocks/image/block.json,False,False,True,core
+core/latest-comments,Latest Comments,widgets,core,,3,False,wp-includes/blocks/latest-comments/block.json,False,False,False,core
+core/latest-posts,Latest Posts,widgets,core,,3,False,wp-includes/blocks/latest-posts/block.json,False,False,False,core
+core/legacy-widget,Legacy Widget,widgets,core,,3,False,wp-includes/blocks/legacy-widget/block.json,False,False,False,core
+core/list,List,text,core,,3,False,wp-includes/blocks/list/block.json,False,False,False,core
+core/list-item,List Item,text,core,,3,False,wp-includes/blocks/list-item/block.json,False,False,False,core
+core/loginout,Login/out,theme,core,,3,False,wp-includes/blocks/loginout/block.json,False,False,False,core
+core/math,Math,text,core,,3,False,wp-includes/blocks/math/block.json,False,False,False,core
+core/media-text,Media & Text,media,core,,3,False,wp-includes/blocks/media-text/block.json,False,False,False,core
+core/missing,Unsupported,text,core,,3,False,wp-includes/blocks/missing/block.json,False,False,False,core
+core/more,More,design,core,,3,False,wp-includes/blocks/more/block.json,False,False,False,core
+core/navigation,Navigation,theme,core,,3,False,wp-includes/blocks/navigation/block.json,False,False,True,core
+core/navigation-link,Custom Link,design,core,,3,False,wp-includes/blocks/navigation-link/block.json,False,False,False,core
+core/navigation-submenu,Submenu,design,core,,3,False,wp-includes/blocks/navigation-submenu/block.json,False,False,False,core
+core/nextpage,Page Break,design,core,,3,False,wp-includes/blocks/nextpage/block.json,False,False,False,core
+core/page-list,Page List,widgets,core,,3,False,wp-includes/blocks/page-list/block.json,False,False,False,core
+core/page-list-item,Page List Item,widgets,core,,3,False,wp-includes/blocks/page-list-item/block.json,False,False,False,core
+core/paragraph,Paragraph,text,core,,3,False,wp-includes/blocks/paragraph/block.json,False,False,False,core
+core/pattern,Pattern Placeholder,theme,core,,3,False,wp-includes/blocks/pattern/block.json,False,False,False,core
+core/post-author,Author,theme,core,,3,False,wp-includes/blocks/post-author/block.json,False,False,False,core
+core/post-author-biography,Author Biography,theme,core,,3,False,wp-includes/blocks/post-author-biography/block.json,False,False,False,core
+core/post-author-name,Author Name,theme,core,,3,False,wp-includes/blocks/post-author-name/block.json,False,False,False,core
+core/post-comments-count,Comments Count,theme,core,,3,False,wp-includes/blocks/post-comments-count/block.json,False,False,False,core
+core/post-comments-form,Comments Form,theme,core,,3,False,wp-includes/blocks/post-comments-form/block.json,False,False,False,core
+core/post-comments-link,Comments Link,theme,core,,3,False,wp-includes/blocks/post-comments-link/block.json,False,False,False,core
+core/post-content,Content,theme,core,,3,False,wp-includes/blocks/post-content/block.json,False,False,False,core
+core/post-date,Date,theme,core,,3,False,wp-includes/blocks/post-date/block.json,False,False,False,core
+core/post-excerpt,Excerpt,theme,core,,3,False,wp-includes/blocks/post-excerpt/block.json,False,False,False,core
+core/post-featured-image,Featured Image,theme,core,,3,False,wp-includes/blocks/post-featured-image/block.json,False,False,False,core
+core/post-navigation-link,Post Navigation Link,theme,core,,3,False,wp-includes/blocks/post-navigation-link/block.json,False,False,False,core
+core/post-template,Post Template,theme,core,,3,False,wp-includes/blocks/post-template/block.json,False,False,False,core
+core/post-terms,Post Terms,theme,core,,3,False,wp-includes/blocks/post-terms/block.json,False,False,False,core
+core/post-time-to-read,Time to Read,theme,core,,3,False,wp-includes/blocks/post-time-to-read/block.json,False,False,False,core
+core/post-title,Title,theme,core,,3,False,wp-includes/blocks/post-title/block.json,False,False,False,core
+core/preformatted,Preformatted,text,core,,3,False,wp-includes/blocks/preformatted/block.json,False,False,False,core
+core/pullquote,Pullquote,text,core,,3,False,wp-includes/blocks/pullquote/block.json,False,False,False,core
+core/query,Query Loop,theme,core,,3,False,wp-includes/blocks/query/block.json,False,False,True,core
+core/query-no-results,No Results,theme,core,,3,False,wp-includes/blocks/query-no-results/block.json,False,False,False,core
+core/query-pagination,Pagination,theme,core,,3,False,wp-includes/blocks/query-pagination/block.json,False,False,False,core
+core/query-pagination-next,Next Page,theme,core,,3,False,wp-includes/blocks/query-pagination-next/block.json,False,False,False,core
+core/query-pagination-numbers,Page Numbers,theme,core,,3,False,wp-includes/blocks/query-pagination-numbers/block.json,False,False,False,core
+core/query-pagination-previous,Previous Page,theme,core,,3,False,wp-includes/blocks/query-pagination-previous/block.json,False,False,False,core
+core/query-title,Query Title,theme,core,,3,False,wp-includes/blocks/query-title/block.json,False,False,False,core
+core/query-total,Query Total,theme,core,,3,False,wp-includes/blocks/query-total/block.json,False,False,False,core
+core/quote,Quote,text,core,,3,False,wp-includes/blocks/quote/block.json,False,False,False,core
+core/read-more,Read More,theme,core,,3,False,wp-includes/blocks/read-more/block.json,False,False,False,core
+core/rss,RSS,widgets,core,,3,False,wp-includes/blocks/rss/block.json,False,False,False,core
+core/search,Search,widgets,core,,3,False,wp-includes/blocks/search/block.json,False,False,True,core
+core/separator,Separator,design,core,,3,False,wp-includes/blocks/separator/block.json,False,False,False,core
+core/shortcode,Shortcode,widgets,core,,3,False,wp-includes/blocks/shortcode/block.json,False,False,False,core
+core/site-logo,Site Logo,theme,core,,3,False,wp-includes/blocks/site-logo/block.json,False,False,False,core
+core/site-tagline,Site Tagline,theme,core,,3,False,wp-includes/blocks/site-tagline/block.json,False,False,False,core
+core/site-title,Site Title,theme,core,,3,False,wp-includes/blocks/site-title/block.json,False,False,False,core
+core/social-link,Social Icon,widgets,core,,3,False,wp-includes/blocks/social-link/block.json,False,False,False,core
+core/social-links,Social Icons,widgets,core,,3,False,wp-includes/blocks/social-links/block.json,False,False,False,core
+core/spacer,Spacer,design,core,,3,False,wp-includes/blocks/spacer/block.json,False,False,False,core
+core/table,Table,text,core,,3,False,wp-includes/blocks/table/block.json,False,False,False,core
+core/tag-cloud,Tag Cloud,widgets,core,,3,False,wp-includes/blocks/tag-cloud/block.json,False,False,False,core
+core/template-part,Template Part,theme,core,,3,False,wp-includes/blocks/template-part/block.json,False,False,False,core
+core/term-count,Term Count,theme,core,,3,False,wp-includes/blocks/term-count/block.json,False,False,False,core
+core/term-description,Term Description,theme,core,,3,False,wp-includes/blocks/term-description/block.json,False,False,False,core
+core/term-name,Term Name,theme,core,,3,False,wp-includes/blocks/term-name/block.json,False,False,False,core
+core/term-template,Term Template,theme,core,,3,False,wp-includes/blocks/term-template/block.json,False,False,False,core
+core/terms-query,Terms Query,theme,core,,3,False,wp-includes/blocks/terms-query/block.json,False,False,False,core
+core/text-columns,Text Columns (deprecated),design,core,,3,False,wp-includes/blocks/text-columns/block.json,False,False,False,core
+core/verse,Verse,text,core,,3,False,wp-includes/blocks/verse/block.json,False,False,False,core
+core/video,Video,media,core,,3,False,wp-includes/blocks/video/block.json,False,False,False,core
+core/widget-group,Widget Group,widgets,core,,3,False,wp-includes/blocks/widget-group/block.json,False,False,False,core

@@ -1,0 +1,277 @@
+{
+  "blocks": [
+    {
+      "apiVersion": 3,
+      "attributes": {
+        "align": {
+          "enum": [
+            "left",
+            "center",
+            "right",
+            "wide",
+            "full",
+            ""
+          ],
+          "type": "string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "borderColor": {
+          "type": "string"
+        },
+        "className": {
+          "type": "string"
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "fontSize": {
+          "type": "string"
+        },
+        "gradient": {
+          "type": "string"
+        },
+        "isStackedOnMobile": {
+          "default": true,
+          "type": "boolean"
+        },
+        "layout": {
+          "type": "object"
+        },
+        "lock": {
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "style": {
+          "type": "object"
+        },
+        "templateLock": {
+          "enum": [
+            "all",
+            "insert",
+            "contentOnly",
+            false
+          ],
+          "type": [
+            "string",
+            "boolean"
+          ]
+        },
+        "textColor": {
+          "type": "string"
+        },
+        "verticalAlignment": {
+          "type": "string"
+        }
+      },
+      "category": "design",
+      "derived": {
+        "isDynamic": false
+      },
+      "example": null,
+      "isDynamic": false,
+      "keywords": [],
+      "name": "core/columns",
+      "origin": "plugin",
+      "originName": "shoptimizer",
+      "originPlugins": [
+        "shoptimizer"
+      ],
+      "providesContext": null,
+      "supports": {
+        "__experimentalBorder": {
+          "__experimentalDefaultControls": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+          },
+          "color": true,
+          "radius": true,
+          "style": true,
+          "width": true
+        },
+        "align": [
+          "wide",
+          "full"
+        ],
+        "anchor": true,
+        "color": {
+          "__experimentalDefaultControls": {
+            "background": true,
+            "text": true
+          },
+          "button": true,
+          "gradients": true,
+          "heading": true,
+          "link": true
+        },
+        "html": false,
+        "interactivity": {
+          "clientNavigation": true
+        },
+        "layout": {
+          "allowEditing": false,
+          "allowInheriting": false,
+          "allowSwitching": false,
+          "default": {
+            "flexWrap": "nowrap",
+            "type": "flex"
+          }
+        },
+        "shadow": true,
+        "spacing": {
+          "__experimentalDefaultControls": {
+            "blockGap": true,
+            "padding": true
+          },
+          "blockGap": {
+            "__experimentalDefault": "2em",
+            "sides": [
+              "horizontal",
+              "vertical"
+            ]
+          },
+          "margin": [
+            "top",
+            "bottom"
+          ],
+          "padding": true
+        },
+        "typography": {
+          "__experimentalDefaultControls": {
+            "fontSize": true
+          },
+          "__experimentalFontFamily": true,
+          "__experimentalFontStyle": true,
+          "__experimentalFontWeight": true,
+          "__experimentalLetterSpacing": true,
+          "__experimentalTextDecoration": true,
+          "__experimentalTextTransform": true,
+          "fontSize": true,
+          "lineHeight": true
+        }
+      },
+      "title": "Columns",
+      "usesContext": []
+    },
+    {
+      "apiVersion": 3,
+      "attributes": {
+        "className": {
+          "type": "string"
+        },
+        "height": {
+          "default": "100px",
+          "type": "string"
+        },
+        "lock": {
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "style": {
+          "type": "object"
+        },
+        "width": {
+          "type": "string"
+        }
+      },
+      "category": "design",
+      "derived": {
+        "isDynamic": false
+      },
+      "example": null,
+      "isDynamic": false,
+      "keywords": [],
+      "name": "core/spacer",
+      "origin": "plugin",
+      "originName": "shoptimizer",
+      "originPlugins": [
+        "shoptimizer"
+      ],
+      "providesContext": null,
+      "supports": {
+        "anchor": true,
+        "interactivity": {
+          "clientNavigation": true
+        },
+        "spacing": {
+          "__experimentalDefaultControls": {
+            "margin": true
+          },
+          "margin": [
+            "top",
+            "bottom"
+          ]
+        }
+      },
+      "title": "Spacer",
+      "usesContext": [
+        "orientation"
+      ]
+    },
+    {
+      "apiVersion": 3,
+      "attributes": {
+        "align": {
+          "default": "wide",
+          "type": "string"
+        },
+        "className": {
+          "type": "string"
+        },
+        "lock": {
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "shortcode": {
+          "default": "cart",
+          "enum": [
+            "cart",
+            "checkout"
+          ],
+          "type": "string"
+        }
+      },
+      "category": "woocommerce",
+      "derived": {
+        "isDynamic": true
+      },
+      "example": null,
+      "isDynamic": true,
+      "keywords": [
+        "WooCommerce"
+      ],
+      "name": "woocommerce/classic-shortcode",
+      "origin": "plugin",
+      "originName": "shoptimizer",
+      "originPlugins": [
+        "shoptimizer"
+      ],
+      "providesContext": null,
+      "supports": {
+        "align": true,
+        "html": false,
+        "inserter": true,
+        "interactivity": {
+          "clientNavigation": false
+        },
+        "multiple": false,
+        "reusable": false
+      },
+      "title": "Classic Shortcode",
+      "usesContext": []
+    }
+  ],
+  "generated_at_utc": "2026-02-09T14:40:31+00:00",
+  "pluginSlug": "shoptimizer",
+  "pluginVersion": "2.9.1",
+  "wordpressVersion": "6.9.1"
+}

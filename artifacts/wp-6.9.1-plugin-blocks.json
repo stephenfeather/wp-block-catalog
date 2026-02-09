@@ -1,0 +1,12 @@
+{
+  "blocks": [],
+  "generatedAtUtc": "2026-02-09T15:01:00Z",
+  "sourceRoots": [
+    {
+      "label": "plugins",
+      "path": "/Users/stephenfeather/Development/wp-block-catalog/artifacts/wp-6.9.1-src/wordpress/wp-content/plugins"
+    }
+  ],
+  "wordpressVersion": "6.9.1",
+  "wpRoot": "/Users/stephenfeather/Development/wp-block-catalog/artifacts/wp-6.9.1-src/wordpress"
+}
