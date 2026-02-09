@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  db:
+    image: mariadb:10.6
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_INITDB_SKIP_TZINFO: 1
+    volumes:
+      - db_data:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:6.9.1-php8.2-apache
+    depends_on:
+      - db
+    ports:
+      - "9876:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wp_data:/var/www/html
+      - ./scripts:/workspace/scripts
+      - ./artifacts:/workspace/artifacts
+
+  wpcli:
+    image: wordpress:cli-php8.2
+    depends_on:
+      - db
+      - wordpress
+    user: "33:33"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wp_data:/var/www/html
+      - ./scripts:/workspace/scripts
+      - ./artifacts:/workspace/artifacts
+    entrypoint: ["sleep", "infinity"]
+
+volumes:
+  db_data:
+  wp_data:
